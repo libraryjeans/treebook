@@ -27,8 +27,14 @@
 		</div>	
 	</div>
 	<div class="container">
-		<p class="notice"><%= notice %></p>
-       	<p class="alert"><%= alert %></p>		
+		<!-- rather than writing an if for each flash, iterate over types -->
+		<% flash.each do  |type, message| %>
+			<!-- flash_class_type in app/helpers/application_helper.rb  -->
+			<div class="alert <%= flash_class type %>">
+				<button class="close" data-dismiss="alert">x</button>
+				<%= message %>
+			</div>	
+		<% end %>					
 		<%= yield %>
 	</div>		
 </body>
