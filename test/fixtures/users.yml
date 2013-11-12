@@ -1,8 +1,14 @@
 # fixture for data we always want our tests to have access to
 # this isn't working... not calling for now
 genius:
-  first_name: genius
-  last_name: genius
-  email: genius@genius.com
-  profile_name: genius
+  first_name: 'genius'
+  last_name: 'genius'
+  email: 'genius@genius.com'
+  profile_name: 'genius'
+
+laura:
+  first_name: 'laura'
+  last_name: 'robinson'
+  email: 'laura_123@gmail.com'
+  profile_name: 'libraryjeans'
 
