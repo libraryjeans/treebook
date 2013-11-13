@@ -60,4 +60,8 @@ class UserTest < ActiveSupport::TestCase
     assert users(:laura).friends.inlcude?(users(:genius))
   end
 
+  test "that calling to_param on a user returns the profile_name" do 
+    assert_equal "libraryjeans", users(:laura).to_param
+  end
+
 end
