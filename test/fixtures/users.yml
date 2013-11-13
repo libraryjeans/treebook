@@ -12,3 +12,8 @@ laura:
   email: 'laura_123@gmail.com'
   profile_name: 'libraryjeans'
 
+daffy:
+  first_name: 'Daffy'
+  last_name: 'Duck'
+  email: 'daffy@disney.com'
+  profile_name: 'DafPunk'
