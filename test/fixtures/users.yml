@@ -13,7 +13,7 @@ laura:
   profile_name: 'libraryjeans'
 
 daffy:
-  first_name: 'Daffy'
-  last_name: 'Duck'
+  first_name: 'daffy'
+  last_name: 'duck'
   email: 'daffy@disney.com'
   profile_name: 'DafPunk'

@@ -53,11 +53,10 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  # this errors
   test "that creating friendships on a user works" do
     users(:laura).friends << users(:genius)#adding genius as friend
     users(:laura).friends.reload #reloads friends in database
-    assert users(:laura).friends.inlcude?(users(:genius))
+    assert users(:laura).friends.include?(users(:genius))
   end
 
   test "that calling to_param on a user returns the profile_name" do 
