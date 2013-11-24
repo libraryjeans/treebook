@@ -11,6 +11,7 @@ laura:
   last_name: 'robinson'
   email: 'laura_123@gmail.com'
   profile_name: 'libraryjeans'
+  encrypted_password: '$2a$10$RiL7TBEBn4cFHrDD8jDUvOQQ08kvNkMTGdYGFP50xR86tAtzgCjlC'
 
 daffy:
   first_name: 'daffy'
