@@ -15,7 +15,11 @@ Treebook::Application.routes.draw do
     delete "/logout", :to => "devise/sessions#destroy", as: :logout 
   end  
 
-  resources :user_friendships
+  resources :user_friendships do
+    member do
+      put :accept
+    end
+  end
 
   resources :statuses
   get 'feed', to: 'statuses#index', as: :feed
